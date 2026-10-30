@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Atividade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Quiz de Programação e Web</h1>
+
+        <div class="pergunta">
+            <p>1. O que significa HTML?</p>
+            <label><input type="radio" name="q1" id="q1_a"> Hyper Text Markup Language</label><br>
+            <label><input type="radio" name="q1" id="q1_b"> Home Tool Markup Language</label><br>
+            <label><input type="radio" name="q1" id="q1_c"> Hyperlinks and Text Markup Language</label>
+        </div>
+
+        <div class="pergunta">
+            <p>2. Qual é a propriedade CSS utilizada para alterar a cor do texto?</p>
+            <label><input type="radio" name="q2" id="q2_a"> text-color</label><br>
+            <label><input type="radio" name="q2" id="q2_b"> font-color</label><br>
+            <label><input type="radio" name="q2" id="q2_c"> color</label>
+        </div>
+
+        <div class="pergunta">
+            <p>3. Qual tag HTML é usada para inserir código JavaScript?</p>
+            <label><input type="radio" name="q3" id="q3_a"> &lt;js&gt;</label><br>
+            <label><input type="radio" name="q3" id="q3_b"> &lt;script&gt;</label><br>
+            <label><input type="radio" name="q3" id="q3_c"> &lt;javascript&gt;</label>
+        </div>
+
+        <div class="pergunta">
+            <p>4. Em JavaScript, como se declara uma variável de forma moderna?</p>
+            <label><input type="radio" name="q4" id="q4_a"> v nome;</label><br>
+            <label><input type="radio" name="q4" id="q4_b"> variable nome;</label><br>
+            <label><input type="radio" name="q4" id="q4_c"> let nome;</label>
+        </div>
+
+        <div class="pergunta">
+            <p>5. O que faz a função document.getElementById()?</p>
+            <label><input type="radio" name="q5" id="q5_a"> Seleciona um elemento pelo seu ID</label><br>
+            <label><input type="radio" name="q5" id="q5_b"> Seleciona um elemento pela sua classe</label><br>
+            <label><input type="radio" name="q5" id="q5_c"> Cria um novo elemento com um ID</label>
+        </div>
+
+        <button onclick="verificarRespostas()">Responder</button>
+
+        <div id="resultado"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
